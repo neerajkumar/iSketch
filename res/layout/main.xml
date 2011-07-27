@@ -3,5 +3,36 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >    
-</LinearLayout>
+    android:background="#ffffff"
+    >
+    <FrameLayout android:layout_width="wrap_content" android:id="@+id/frameLayout1" 
+    android:layout_height="fill_parent" android:minWidth="80px">
+    <ImageView android:src="@drawable/add" android:id="@+id/add" 
+    android:clickable="true" android:layout_gravity="top"
+     android:layout_width="wrap_content" android:layout_height="wrap_content" 
+     android:paddingTop="20px" android:paddingLeft="10px" android:layout_marginLeft="15px">
+     </ImageView>
+	</FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:id="@+id/frameLayout2" 
+    android:layout_height="fill_parent" android:minWidth="70px" android:paddingRight="10px">
+
+    <ImageView android:src="@drawable/load" android:id="@+id/load" android:clickable="true" 
+    android:layout_gravity="top"
+     android:layout_width="wrap_content" android:layout_height="wrap_content" 
+     android:paddingTop="20px" android:paddingLeft="25px" 
+     android:paddingRight="25px" android:layout_marginLeft="15px">
+     </ImageView>
+	</FrameLayout>
+
+    <FrameLayout android:layout_width="wrap_content" android:id="@+id/frameLayout3" 
+    android:layout_height="fill_parent" android:minWidth="70px">
+
+    <ImageView android:src="@drawable/setting" android:id="@+id/setting" 
+     android:clickable="true" android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" android:layout_gravity="top" 
+    android:maxWidth="30px" android:maxHeight="30px" android:layout_marginTop="20px" 
+    android:paddingLeft="40px">
+    </ImageView>
+	</FrameLayout>
+
+	</LinearLayout>

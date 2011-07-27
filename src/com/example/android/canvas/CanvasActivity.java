@@ -11,8 +11,5 @@ public class CanvasActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        View mylayout = findViewById(R.layout.main);
-        mylayout.setBackgroundColor(Color.WHITE);
-        
     }
 }
